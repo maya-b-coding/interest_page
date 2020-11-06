@@ -1,0 +1,177 @@
+body{
+  background-color:white;
+  padding: 0px;
+  padding-top: 60px;
+  margin: 0px;
+  font-family: Arial;
+}
+
+#herobrine{
+  display: none;
+}
+
+.nav_container{
+  position: fixed;
+  top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;centerer
+}
+
+a.anchor{
+  display: block;
+      position: relative;
+      top: -400px;
+      visibility: hidden;
+}
+
+.navigation{
+  display:flex;
+  background-color: #edd8ea;
+  justify-content: space-around;
+  font-size: 16pt;
+  border-style:solid;
+  border-color:#cfcccc;
+  border-width: 0px;
+  border-bottom-width: 2px;
+  height:60px;
+  align-items: center;
+
+}
+
+.nav_link{
+  width: 80px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0 20px  0;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  font-size: 15px;
+  text-align: center;
+  padding: 0;
+  margin: 10px;
+}
+
+button{
+  margin-bottom: 3px;
+}
+
+.container, .container_spc{
+  display: flex;
+  width: 80vw;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cfcccc;
+      background-color: #edf8e4;
+      flex-direction: column;
+      margin: 15px;
+      border-radius: 2px;
+}
+
+.container-side{
+
+  display: flex;
+  width: 80vw;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cfcccc;
+  background-color: #edf8e4;
+  margin: 15px;
+  border-radius: 2px;
+  justify-content: space-around;
+}
+
+
+
+.img_txt{
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+
+
+}
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.sml_box, .sml_box_alt{
+    background-color: #edf8e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  font-size: 12px;
+  margin: 0 5px;
+  padding: 5px;
+
+}
+
+.sml_box_tbl{
+  display: flex;
+    background-color: #edf8e4;
+  justify-content: center;
+  flex-direction: column;
+
+  font-size: 20px;
+  margin: 0 5px;
+  padding: 5px;
+
+  width: 90%
+
+
+}
+
+.lrg_box{
+
+  display: flex;
+  font-size: 19px;
+  margin: 5px;
+  padding: 5px;
+
+  align-items: center;
+}
+
+.full_box{
+  display: flex;
+
+  font-size: 19px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.site_description{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 11px;
+  text-align: center;
+  color: #999999
+
+}
+
+.mobile_pic{
+  display: none;
+}
+
+.space{
+  display: none;
+  margin: 10px 0px;
+}
+
+.mbl_container_centerer, .mbl_container{
+  display:none;
+}

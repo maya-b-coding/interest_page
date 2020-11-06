@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Welcome to my Interest Page </title>
+		<link rel="stylesheet" media="only screen and (max-width: 480px)" href="./css/mobile.css">
+		<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="./css/tablet.css">
+		<link rel="stylesheet" media="only screen and (min-width: 961px)" href="./css/desktop.css">
+		<script src="./js/jquery-3.5.1.min.js"></script>
+		<script src = "./js/createjs.min.js"></script>
+		<script src ="./js/soundjs.min.js"></script>
+		<script src ="./js/scripts.js"></script>
+
+
+		<meta name="viewport" content="initial-scale=1">
+	</head>
+	<body >
+		<nav>
+			<div class = 'nav_container'>
+				<div class ='navigation'>
+					<div class='nav_link'>
+						<a href ='../index.html'>Home</a>
+					</div>
+					<div class='nav_link'>
+						<a href ='../personal/index.html'>Personal</a>
+					</div>
+					<div class='nav_link'>
+						<a href ='../cause/index.html'>Cause</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+	<h1>Interest Page</h1>
+
+	<p id="demo"></p>
+
+	<div class ='main'>
+
+		<div class = 'mobile_pic'>
+			<img src ='images/gamer.jpeg' width = '300px'>
+		</div>
+
+			<div class = 'container_centerer'>
+				<div class = 'container'>
+					<div class = 'img_txt'>
+						<div class = 'lrg_box'>
+							 &emsp; Heya! I've been playing video games since I was little, and its gotta be my favorite hobby
+							by far. Over time I've played lots of games, some good, some bad, so I decided to put together a list
+							of a few worth mentioning, which you can read below! There's also some
+							interactive javascript components I added right above all the summaries, which you can mess around with. I also go more into detail about the design of some games
+							in the links on the right (or below on mobile)
+						</div>
+						<div class='sml_box_tbl'>
+							<h2>Links</h2>
+								<div class='list_item'>
+									1. <a href ='./half-life.html'>Looking Around in Half-Life</a>
+								</div>
+								<div class='list_item'>
+									2. <a href ='./magic.html'>The Flavor of Magic the Gathering</a>
+								</div>
+								<div class='list_item'>
+									3. <a href ='./myst.html'>How Myst Handles Space</a>
+								</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class = 'mbl_container_centerer'>
+				<div class = 'container'>
+
+					<h2>Links</h2>
+					<div class = 'mbl_links'>
+						<div class='list_item'>
+							1. <a href ='./half-life.html'>Looking Around in Half-Life</a>
+						</div>
+						<div class='list_item'>
+							2. <a href ='./magic.html'>The Flavor of Magic the Gathering</a>
+						</div>
+						<div class='list_item'>
+							3. <a href ='./myst.html'>How Myst Handles Space</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<h2> Interactive JS </h2>
+
+			<div class = 'container_centerer'>
+				<div class = 'container-side'>
+					<div class = 'sml_box_alt'>
+						<h3>Font Size</h3>
+
+						<button type="button" id="decrease_font">-</button>
+						<button type="button" id="increase_font">+</button>
+					</div>
+					<div class = 'sml_box_alt'>
+					<h3>Fade In/Fade Out</h3>
+					<button type="button" id="fade" >Fade in</button>
+					<img id="herobrine" width = 200px src="./images/herobrine.jpg"></img>
+
+					</div>
+					<div class = 'sml_box_alt'>
+					<h3>Sound</h3>
+					All buttons have sound added via the soundJS library. Click below to test.
+
+					<button type="button" id="test_sound">Play Sound</button>
+					</div>
+				</div>
+			</div>
+
+			<h2 id = 'game_1'>Super Mario Sunshine</h2>
+
+			<div class = 'container_centerer'>
+				<div class = 'container'>
+						<div class = 'img_txt'>
+							<div class='sml_box'>
+									<img src='./images/mario_sunshine.jpg' width='250px'>
+							</div>
+							<div class = 'lrg_box'>
+									 &emsp; While on vacation, Mario is framed for a crime he didn't commit! His punishment? He has to clean the entire island! Sounds like
+									a chore, but this game is actually loads of fun! Mario's equipped with a water-powered jetpack/super-hose
+								 and has to spray down goopie enemies and clean graffiti, all the while doing classic Mario platforming challenges.
+								 This game isn't perfect, and can be clunky at times, but it holds a very special place in my heart.
+								</div>
+					</div>
+						<div class = 'full_box'>
+							 &emsp;Some of this game's biggest flaws come from the fact that it was rushed in development. You can tell by how they
+							just sort of crammed a lot of meaningless shines in to increase the shine count. You get so many of the shines just
+							by collecting blue coins scattered randomly throughhout the level... it's certainly filler. There's also just occasions where
+							you'll glitch out through the floor or something similar, but these are kind of rare luckily. Some people think the game's platforming
+							is made too easy because of the hover nozzle, and I can certainly see this argument. However, it's just so fun to fly around with that thing...
+							This game has some of the best controls in a platformer, no doubt!
+						</div>
+				</div>
+			</div>
+
+			<h2 id='game_2'>Myst</h2>
+
+			<div class = 'container_centerer'>
+				<div class = 'container'>
+					<div class = 'img_txt'>
+						<div class = 'lrg_box'>
+						 &emsp;	Myst is a game from 1993 which I just happened upon recently. It's far from a traditional game,
+							demonstrated by its lack of cutscenes and action sequences. Instead, you traverse a mysterious world,
+							yearning to learn more about where, and when, you are. The graphics look dated by today's standards, but they
+							were actually pretty revolutionary at the time, when games like DOOM were just starting to take hold. These graphical
+							feats were accomplished using pre-rendered graphics, packed on to at-the-time-brand-new CD-ROM technology. Dive into this
+							mysterious world and learn more!
+						</div>
+						<div class='sml_box'>
+							<img src='./images/myst_screenshot.jpg' width='250px'>
+						</div>
+					</div>
+					<div class = 'full_box'>
+						 &emsp; To be honest though, I had to cheat to beat this game. There's some hidden doors that are pretty much impossible to notice. Maybe if I'd spent
+						hours upon hours going back and forth in the rooms, but I didn't want to waste my time. Othher than thhese few, however, most of the puzzles
+						are fairly reasonable, interesting, and tie in seamlessly to the world around you. Often games will pull you out of the game for some sort of
+						minigame as a puzzle, but in Myst thhe puzzles take place in the world around you, and they're always a little bit different. It really
+						makes you feel like an adventurer, and its fantastic!
+					</div>
+				</div>
+			</div>
+
+			<h2 id ='game_3'>Portal 2</h2>
+
+			<div class = 'container_centerer'>
+				<div class = 'container'>
+					<div class = 'img_txt'>
+					<div class='sml_box'>
+						<img src='./images/portal_2.jpg' width='250px'>
+					</div>
+					<div class = 'lrg_box'>
+					 &emsp; 	Portal 2 was the first game I bought that used Steam, so it was not only an amazing game, but also lead me to
+						discover the vast world of PC gaming! I remember fondly my family computer chugging along, trying its hardest to render
+						the game, fans blaring, while I was just satisfied to play on the lowest settings at about 15 frames per second. It didn't really matter
+						to me I suppose, because the game was designed so well and the world so intriguing that I could put up with it. This game is full
+						of excellent puzzles, a hilarious cast, and a great ending song.
+					</div>
+				</div>
+				<div class = 'full_box'>
+					 &emsp; Portal 2 rides in on the legacy of the wildly successful Portal 1, both introducing the Puzzle genre to the first person perspective. Some people
+					may be nauseated by this unique combination and Portal's mechanics, but if you're not you are in for a great experience. Puzzling in 3d offers
+					all sorts of unique affordances which you can't get from 2D puzzles, and as such can't get in most real world puzzles. This is also a great game to
+					speedrun, and I actually personally was learning the route to do so, until I lost the patience required.
+				</div>
+			</div>
+		</div>
+
+			<h2 id='game_4'>Super Mario RPG</h2>
+
+			<div class = 'container_centerer'>
+				<div class = 'container'>
+					<div class = 'img_txt'>
+					<div class = 'lrg_box'>
+						 &emsp;Yup, another Mario game!
+						This game went on to shape future mario RPGs, such as Paper Mario and the Mario and Luigi series, but
+						it is also great on its own. You get to control several classic Mario characters, as well as a few
+						strange but lovable newcomers. This game captures Mario's style perfectly, while also creating
+						a completely unique experience. Another game filled with humor, although this game is definitely a wackier than Portal 2.
+						This game definitely holds up today!
+					</div>
+					<div class='sml_box'>
+						<img src='./images/mario_rpg.jpg' width='250px'>
+				</div>
+			</div>
+			<div class = 'full_box'>
+				 &emsp; One reason this RPG is so engaging is that many of your special moves require timed button presses, bringing in an action element. Often, turn based fights can become
+				 super monotonous, and grinding them out a chore. However, this touch of action helps to alleviate some gamer fatigue.
+			 	</div>
+			</div>
+		</div>
+
+		<h2 id ='game_5'>Counter-Strike: Global Offensive</h2>
+
+		<div class = 'container_centerer'>
+			<div class = 'container'>
+				<div class ='img_txt'>
+					<div class='sml_box'>
+						<img src='./images/csgo.jpg' width='250px'>
+					</div>
+					<div class = 'lrg_box'>
+					 &emsp;	I kind of hate this game. Don't get me wrong, it does what it does perfectly; it's a great competitive
+						shooter with a very high skill ceiling, and watching the pros play is nothing but awe-inspiring. I was
+						even lucky enough to get to see a couple tournaments live, and the energy in the arena was absolutely thrilling.
+						And on top of that, I used to love to play it! But this game has been such a source of frustration and a
+						destroyer of friendships that I can definitely NOT recommend it. It's also a huge time-waster. If I'd put half <thead>
+							time I put into this game into art, I'd be Michaelangelo by now.
+						</thead>
+					</div>
+			</div>
+			<div class = 'full_box'>  &emsp; Interestingly, this game has a huge gambling scene, and the game's in game loot crates can themselves be seen as a form of gambling.
+			Many parents are against introducing these kinds of game systems to children, but games companies insist this in game market is no form of gambling. However, that which goes on outside
+		of the game, is undeniably gambling. Valve has taken some measures to shut down gambling sites in the past, but the sites are too numerous, and there isn't much they can do at this point.</div>
+			</div>
+		</div>
+
+
+			<div class = 'site_description'>
+				This site was created by Ryan Bello, as a part of NYU's Intro to Web Design course.
+			</div>
+		</div>
+	</div>
+
+	</body>
+</html>
